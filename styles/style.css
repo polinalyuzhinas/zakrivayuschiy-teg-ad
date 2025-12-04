@@ -16,7 +16,6 @@
   background-image: var(--main-background);
   background-image: var(--gradients-overlay);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: var(--main-font), sans-serif;
@@ -46,7 +45,7 @@
 .title {
   font-family: var(--accent-font), sans-serif;
   font-weight: var(--accent-font-weight);
-  margin-block-end: 20px; 
+  margin-block-end: 20px;
   font-size: clamp(3.0625rem, 2.7699rem + 1.4363vw, 4.0625rem);;
 }
 
