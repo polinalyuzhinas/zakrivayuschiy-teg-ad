@@ -165,7 +165,7 @@ main {
   gap: 12px;
 }
 
-button {
+.card__like-button, .button-accept, .button-save {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -176,17 +176,6 @@ button {
   cursor: pointer;
   overflow: hidden;
   position: relative;
-}
-
-.like-icon {
-  inline-size: 27px;
-  block-size: 24px;
-  object-fit: cover;
-}
-
-.card__like-button {
-  inline-size: 130px;
-  block-size: 38px;
 }
 
 button:focus {
@@ -219,13 +208,6 @@ button:hover::before {
   mix-blend-mode: difference;
 }
 
-button svg {
-  position: relative;
-  z-index: 2;
-  mix-blend-mode: difference;
-  filter: invert(1);
-}
-
 .footer {
   display: flex;
   align-items: center;
@@ -242,6 +224,13 @@ button svg {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.button-save svg {
+  position: relative;
+  z-index: 2;
+  mix-blend-mode: difference;
+  filter: invert(1);
 }
 
 dialog[open] {
